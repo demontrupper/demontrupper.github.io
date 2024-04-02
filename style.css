@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte bonita */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    margin-top: 50px; /* Espaço superior */
+}
+
+h1 {
+    color: #FF0000; /* Cor do título */
+}
+
+p {
+    color: #333; /* Cor do texto */
+}
