@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ALERTA DE SEGURANÇA</title>
+        <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS -->
+        <script>
+            // Função que cria um loop infinito de alertas
+            function loopDeAlertas() {
+                // Loop infinito
+                while (true) {
+                    alert("SEU CELULAR FOI INVADIDO, SEUS DADOS ESTÃO SENDO CLONADOS NESSE MOMENTO, SE LIGA AI MANÉ");
+                }
+            }
+    
+            // Função que será chamada quando a página for carregada
+            function iniciarLoop() {
+                loopDeAlertas(); // Chama a função para iniciar o loop
+            }
+        </script>
+    </head>
+    <body onload="iniciarLoop()"> <!-- Chama a função iniciarLoop() quando a página é carregada -->
+        <h1>Alerta crítico de segurança.</h1>
+        <p>Seu Samsung Galaxy A32 está infectado!</p>
+    </body>
+</body>
+</html>
+
+
